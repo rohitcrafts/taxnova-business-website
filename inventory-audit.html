@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventory Audit - Bizfoc</title>
+  <link rel="stylesheet" href="detail-page.css" />
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+  <img src="logo-taxnova.png">
+  <span>TaxNova</span>
+</div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="service-detail">
+  <h1>Inventory Audit</h1>
+  <p>Comprehensive audits for retail, pharma, and textile inventories ensuring accuracy and compliance.</p>
+  <ul>
+    <li>Inventory verification and checking</li>
+    <li>Compliance with standards and regulations</li>
+    <li>Detailed reporting and transparency</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 TaxNova. All Rights Reserved.</p>
+</footer>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+</script>
+
+
+</body>
+</html>

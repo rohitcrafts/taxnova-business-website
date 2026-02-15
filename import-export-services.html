@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Import Export Services - Bizfoc</title>
+  <link rel="stylesheet" href="detail-page.css" />
+</head>
+<body>
+
+<nav>
+  <div class="logo">
+  <img src="logo-taxnova.png">
+  <span>TaxNova</span>
+</div>
+
+  <div class="hamburger" id="hamburger">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="service-detail">
+  <h1>Import Export Services</h1>
+  <p>End to end support for your import-export business needs and global trade compliance.</p>
+  <ul>
+    <li>Import-Export Code registration</li>
+    <li>Certificates of Origin</li>
+    <li>SAFTA & FTA documentation</li>
+    <li>Global shipping and customs assistance</li>
+  </ul>
+</section>
+
+<footer>
+  <p>© 2025 TaxNova. All Rights Reserved.</p>
+</footer>
+
+<script>
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
+
+hamburger.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+});
+</script>
+
+
+</body>
+</html>
